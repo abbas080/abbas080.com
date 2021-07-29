@@ -1,0 +1,140 @@
+body,
+html { 
+  height: 100%; 
+  background: #2F303A;
+}
+
+/*NAV*/
+
+.eclipse {
+    display: flex;
+    order: 1;
+}
+
+ul li {
+    display: flex;
+    list-style-type: none;
+    margin-inline: 30px;
+    text-decoration: none;
+    margin-left: auto;
+}
+
+.brand {
+    display: flex;
+    justify-content: flex-start;
+    align-self: center;
+    margin-right: auto;
+    font-size: 30px;
+    float: left;
+    margin-left: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#nav ul {
+    display: flex; 
+}
+
+#nav {
+    display: flex;
+}
+
+/*Content*/
+
+.content {
+    display: flex;
+    margin-left: 100px;
+}
+
+h1 {
+    color: white;
+    vertical-align: center;
+    font-size: 50px;
+    margin-top: 150px;
+}
+
+strong {
+    color: pink;
+}
+
+form {
+    display: block;
+    background: black;
+    width: 380px;
+    height: 345px;
+    margin-left: auto;
+    margin-right:80px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.form {    
+background: black;
+width: 250px;
+height: 35px;    
+position: absolute;
+border: 2px solid #1762A7;
+box-sizing: border-box;
+border-radius: 10px;
+margin-right: 65px;
+margin-left: 65px;
+}
+
+.form: hover {
+    border: 2px solid #1762A7;
+}
+
+p {
+    color: white;
+    margin-left: 65px;
+}
+
+button {
+    margin-right: 65px;
+    margin-left: 65px;
+    width: 250px;
+    height: 35px;
+    background-color: rgba(23, 98, 167, 1);
+    color: white;
+}
+
+/*Footer*/
+
+#foot {
+    height: 50px;
+    background: black;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin-inline: 20px;
+}
+
+.Lnav {
+    display: flex;
+    float: left;
+    margin-right: auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.Rnav {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    float: right;
+    margin-left: auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.first {
+    margin-left: 0px;
+    margin-inline: 0px;
+}
